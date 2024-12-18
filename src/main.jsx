@@ -15,6 +15,7 @@ import { createRoot } from "react-dom/client";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    {/* do once again */}
     {/* good */}
     {/* <Todo/> */}
     {/* <ImportantNotes /> */}

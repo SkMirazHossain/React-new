@@ -1,0 +1,73 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+input{
+  border: 1px solid #000;
+  padding: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.rating.super_hit{
+  color: green;
+}
+.rating.average{
+  color: red;
+}
+h2{
+  margin-bottom: 15px !important;
+}
+.sk-btn{
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  width: 150px;
+  outline: none;
+}
+.sk-btn:hover{
+  border-radius: 0;
+}
+.sk-btn.btn-on{
+background-color: greenyellow;
+}
+.sk-btn.btn-off{
+  background-color: red;
+  color: #fff;
+}
+

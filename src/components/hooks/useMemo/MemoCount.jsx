@@ -7,11 +7,11 @@ export const Counts = memo(({ bioData }) => {
 
   return (
     <div className="mt-3 font-display text-center">
-      <p className="">
+      <div className="a">
         Nothing changed here but Ive now rendered:
         <span className="text-red-600">{renderCount.current++} time(s)</span>
         <p>My name is {bioData.name}</p>
-      </p>
+      </div>
     </div>
   );
 });

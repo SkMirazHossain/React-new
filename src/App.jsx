@@ -5,7 +5,7 @@ import { DerivedState } from "./components/DriveState";
 import { LiftingState } from "./components/LiftStateUp.jsx";
 import { ToggleSwitch } from "./components/ToggleSwitch.jsx";
 import { AdvanceCounter } from "./components/AdvanceCounter.jsx";
-import {State} from "./components/hooks/useState/Example.jsx"
+import { State } from "./components/hooks/useState/Example.jsx";
 import { RegistrationFormReact } from "./components/hooks/useState/RegistationForm.jsx";
 import { LoginForm } from "./components/hooks/useState/LoginForm.jsx";
 import { UseRefHook } from "./components/hooks/useRef/useRef.jsx";
@@ -20,41 +20,37 @@ import "./App.css";
 export const App = () => {
   return (
     <section>
-      <ReactMemo/>
-      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-      <MemoParentComponent/>
-
-
-<div>
-        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-      </div>
-
-<MyProvider>
-  <Home/>
-  <CallContentfromContextApi/>
-</MyProvider>
-     <div>
-        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-      </div>
-
-      <ParentComponent/>
+      <ReactMemo />
+      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      <MemoParentComponent />
       <div>
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       </div>
-      <UseRefHook/>
+      <MyProvider>
+        <Home />
+        <CallContentfromContextApi />
+      </MyProvider>
       <div>
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       </div>
-      <LoginForm/>
+      <ParentComponent />
       <div>
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       </div>
-       <RegistrationFormReact/>
+      <UseRefHook />
+      <div>
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      </div>
+      <LoginForm />
+      <div>
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+      </div>
+      <RegistrationFormReact />
       <div>
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
